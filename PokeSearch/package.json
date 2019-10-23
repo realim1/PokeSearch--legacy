@@ -6,9 +6,8 @@
   "scripts": {
     "start": "node server",
     "server": "nodemon server",
-    "client" : "npm run serve --prefix client",
+    "client": "npm run serve --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
-
   },
   "author": "Markus Realica",
   "license": "MIT",
@@ -18,7 +17,8 @@
     "express": "^4.17.1",
     "morgan": "^1.9.1",
     "node-fetch": "^2.6.0",
-    "pokedex-promise-v2": "^3.2.0"
+    "pokedex-promise-v2": "^3.2.0",
+    "vue-fab": "^2.3.1"
   },
   "devDependencies": {
     "nodemon": "^1.19.2"
